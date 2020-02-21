@@ -1,0 +1,4 @@
+You have deployed the System Upgrade Controller (SUC)
+Version: {{.Values.sucVersion}}
+Description: This controller enables a k3s cluster to update itself by
+reacting to Plan CRs.
