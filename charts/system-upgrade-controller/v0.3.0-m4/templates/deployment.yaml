@@ -25,7 +25,7 @@ spec:
           effect: "NoSchedule"
       containers:
         - name: system-upgrade-controller
-          image: rancher/system-upgrade-controller:{{.Values.sucVersion}}
+          image: rancher/system-upgrade-controller:{{ .Values.sucVersion | default "v0.3.0-m4" | quote }}
           imagePullPolicy: IfNotPresent
           envFrom:
             - configMapRef:
