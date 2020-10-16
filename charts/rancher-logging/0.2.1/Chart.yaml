@@ -1,4 +1,4 @@
-kubeVersion: ^1.20.0
+kubeVersion: <1.14.0
 apiVersion: v1
 description: Rancher logging helm chart to support logging function in rancher
 icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
