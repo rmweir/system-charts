@@ -1,3 +1,4 @@
+kubeVersion: <1.14.0
 apiVersion: v1
 appVersion: 1.5.9
 description: Helm chart for all istio components
