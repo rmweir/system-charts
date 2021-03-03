@@ -9,5 +9,5 @@ roleRef:
   name: cluster-admin
 subjects:
 - kind: User
-  name: u-jm8v2
+  name: u-6bn8q
   namespace: cattle-system
